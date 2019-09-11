@@ -32,8 +32,8 @@ export default class App extends React.Component {
             <Route exact path="/" component={Main} />
             <Route path="/home" component={Main} />
             <Route path="/about" component={About} />
+            <Route exact path="/contacts" component={Contacts} />
             <Route path="/contacts/:action/:number" component={Contacts} />
-            <Route path="/contacts" component={Contacts} />
           </Switch>
         </div>
       </div>
